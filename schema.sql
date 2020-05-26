@@ -128,6 +128,19 @@ CREATE TABLE MEDIACREATOR
 
 -- 4. Simple query
 
+-- -- List all the movies which have been seen by all profiles in one user
+-- -- List all the actors who have starred in movies from two different genres
+
+
 -- 5. Complex query
 
+-- -- Find all the users who have seen a movie after some year from x genre directed by y 
+-- -- Find all the users where at least one user in the profile has seen a movie by some actor
+
 -- TODO Write a trigger
+
+DELETE TRIGGER IF EXISTS ADD_VIEWCOUNT;
+CREATE TRIGGER ADD_VIEWCOUNT
+AFTER INSERT
+AS UPDATE MEDIA SET 
+ON PROFILEMEDIA
