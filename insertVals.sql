@@ -116,3 +116,106 @@ VALUES
 (3, "COMEDY"),
 (4, "FAMILY"),
 (5, "FICTION")
+
+INSERT INTO PROFILEHISTORY
+(
+ PROFILEID,
+ MEDIAID
+)
+VALUES
+(11, 3),
+(12, 1),
+(12, 5),
+(12, 8),
+(13, 7),
+(13, 11),
+(13, 17),
+(13, 18),
+(14, 19),
+(15, 15),
+(23, 19),
+(24, 1),
+(24, 5),
+(24, 15),
+(31, 6),
+(31, 17),
+(32, 14),
+(32, 19),
+(32, 19),
+(33, 13),
+(33, 18),
+(35, 1),
+(35, 16)
+-- Profiles 21, 22, and 34 have not watched anything
+
+INSERT INTO MEDIAGENRE
+(
+ MEDIAID,
+ GENREID
+)
+VALUES
+(1, 'FAMILY'),
+(1, 'ACTION'),
+(1, 'COMEDY'),
+(1, 'FICTION'),
+(2, 'ACTION'),
+(3, 'COMEDY'),
+(3, 'FAMILY'),
+(4, 'ACTION'),
+(4, 'FICTION'),
+(5, 'FAMILY'),
+(5, 'COMEDY'),
+(6, 'FAMILY'),
+(6, 'COMEDY'),
+(6, 'FICTION'),
+(7, 'FAMILY'),
+(7, 'COMEDY'),
+(7, 'FICTION'),
+(8, 'FICTION'),
+(8, 'DRAMA'),
+(9, 'DRAMA'),
+(10, 'DRAMA'),
+(11, 'FICTION'),
+(11, 'DRAMA'),
+(12, 'DRAMA'),
+(13, 'FICTION'),
+(14, 'ACTION'),
+(15, 'DRAMA'),
+(15, 'FICTION'),
+(16, 'DRAMA'),
+(16, 'FICTION'),
+(17, 'DRAMA'),
+(17, 'FICTION'),
+(18, 'FICTION'),
+(18, 'DRAMA'),
+(19, 'DRAMA'),
+(19, 'COMEDY'),
+(19, 'FICTION'),
+(20, 'FICTION')
+
+INSERT INTO MEDIACREATOR
+(
+ MEDIAID,
+ CREATORID
+)
+VALUES
+(1,  1),
+(2,  2),
+(3,  3),
+(4,  4),
+(5,  5),
+(6,  6),
+(7,  7),
+(8,  8),
+(9,  9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20)
